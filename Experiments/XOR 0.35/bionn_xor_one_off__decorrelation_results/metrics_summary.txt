@@ -1,0 +1,70 @@
+XOR BioNN metrics
+========================
+
+This file summarizes the XOR BioNN configuration with fixed parameters across ablations.
+Stable high accuracy means at least 5 consecutive evaluations with test accuracy >= 0.95.
+
+Configuration notes:
+- learned context, affine-ReLU hidden layer, and linear readout are fixed across ablations
+- mechanism switches only enable or disable their own computational contribution
+- numerical mechanism parameters remain fixed even when the corresponding switch is off
+
+Per-run metrics:
+
+Run 0 seed 80349449
+final_train_accuracy: 0.990000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 2144
+first_high_epoch: 1584
+stable_high_accuracy: true
+activation_sparsity: 0.856525
+structural_sparsity: 0.650000
+wall_clock_seconds: 282.457749
+
+Run 1 seed 827632318
+final_train_accuracy: 0.990000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 3129
+first_high_epoch: 1667
+stable_high_accuracy: true
+activation_sparsity: 0.855645
+structural_sparsity: 0.650000
+wall_clock_seconds: 288.153323
+
+Run 2 seed 911029250
+final_train_accuracy: 0.995000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 2363
+first_high_epoch: 1660
+stable_high_accuracy: true
+activation_sparsity: 0.856620
+structural_sparsity: 0.650000
+wall_clock_seconds: 284.958234
+
+Run 3 seed 1503424559
+final_train_accuracy: 0.960000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 4506
+first_high_epoch: 1880
+stable_high_accuracy: true
+activation_sparsity: 0.850705
+structural_sparsity: 0.650000
+wall_clock_seconds: 307.005296
+
+Aggregate metrics across 4 runs:
+final_train_accuracy minimum: 0.960000
+final_train_accuracy average: 0.983750
+final_test_accuracy minimum: 1.000000
+final_test_accuracy average: 1.000000
+first_perfect_epoch minimum: 2144
+first_perfect_epoch average: 3035.500000
+first_high_epoch minimum: 1584
+first_high_epoch average: 1697.750000
+stable_high_accuracy minimum: 1.000000
+stable_high_accuracy average: 1.000000
+activation_sparsity minimum: 0.850705
+activation_sparsity average: 0.854874
+structural_sparsity minimum: 0.650000
+structural_sparsity average: 0.650000
+wall_clock_seconds minimum: 282.457749
+wall_clock_seconds average: 290.643650

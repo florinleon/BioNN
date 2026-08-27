@@ -1,0 +1,252 @@
+Sparse-parity BioNN metrics
+==========================
+
+This file summarizes the sparse-parity BioNN configuration with fixed parameters across ablations.
+Stable high accuracy means at least 5 consecutive evaluations with test accuracy >= 0.95.
+
+Configuration notes:
+- learned context, affine-ReLU hidden layer, and linear readout are fixed across ablations
+- mechanism switches only enable or disable their own computational contribution
+- numerical mechanism parameters remain fixed even when the corresponding switch is off
+
+Per-run metrics:
+
+Run 0 seed 0
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 158
+first_high_epoch: 133
+stable_high_accuracy: true
+activation_sparsity: 0.551790
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 4
+wall_clock_seconds: 27.358055
+
+Run 1 seed 1
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 144
+first_high_epoch: 140
+stable_high_accuracy: true
+activation_sparsity: 0.542383
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 8
+wall_clock_seconds: 27.588332
+
+Run 2 seed 2
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 127
+first_high_epoch: 117
+stable_high_accuracy: true
+activation_sparsity: 0.540718
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 7
+wall_clock_seconds: 27.576757
+
+Run 3 seed 3
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 102
+first_high_epoch: 98
+stable_high_accuracy: true
+activation_sparsity: 0.548911
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 6
+wall_clock_seconds: 27.462328
+
+Run 4 seed 4
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 122
+first_high_epoch: 97
+stable_high_accuracy: true
+activation_sparsity: 0.553056
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 5
+wall_clock_seconds: 27.221173
+
+Run 5 seed 5
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 137
+first_high_epoch: 130
+stable_high_accuracy: true
+activation_sparsity: 0.514509
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 26
+wall_clock_seconds: 27.352279
+
+Run 6 seed 6
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 148
+first_high_epoch: 136
+stable_high_accuracy: true
+activation_sparsity: 0.549296
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 8
+wall_clock_seconds: 27.371442
+
+Run 7 seed 7
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 133
+first_high_epoch: 127
+stable_high_accuracy: true
+activation_sparsity: 0.565664
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 6
+wall_clock_seconds: 27.534586
+
+Run 8 seed 8
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 126
+first_high_epoch: 119
+stable_high_accuracy: true
+activation_sparsity: 0.577614
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 10
+wall_clock_seconds: 27.778062
+
+Run 9 seed 9
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 122
+first_high_epoch: 118
+stable_high_accuracy: true
+activation_sparsity: 0.552072
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 10
+wall_clock_seconds: 27.272003
+
+Run 10 seed 10
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 148
+first_high_epoch: 141
+stable_high_accuracy: true
+activation_sparsity: 0.573078
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 7
+wall_clock_seconds: 27.416918
+
+Run 11 seed 11
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 169
+first_high_epoch: 163
+stable_high_accuracy: true
+activation_sparsity: 0.561869
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 6
+wall_clock_seconds: 27.364534
+
+Run 12 seed 12
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 155
+first_high_epoch: 144
+stable_high_accuracy: true
+activation_sparsity: 0.567496
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 7
+wall_clock_seconds: 27.454135
+
+Run 13 seed 13
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 130
+first_high_epoch: 118
+stable_high_accuracy: true
+activation_sparsity: 0.577542
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 8
+wall_clock_seconds: 27.516904
+
+Run 14 seed 14
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 138
+first_high_epoch: 125
+stable_high_accuracy: true
+activation_sparsity: 0.572897
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 8
+wall_clock_seconds: 27.436928
+
+Run 15 seed 15
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 173
+first_high_epoch: 165
+stable_high_accuracy: true
+activation_sparsity: 0.545679
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 13
+wall_clock_seconds: 27.523540
+
+Run 16 seed 16
+final_train_accuracy: 0.999000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 132
+first_high_epoch: 116
+stable_high_accuracy: true
+activation_sparsity: 0.588791
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 24
+wall_clock_seconds: 27.109322
+
+Run 17 seed 17
+final_train_accuracy: 0.999000
+final_test_accuracy: 0.990000
+first_perfect_epoch: 111
+first_high_epoch: 102
+stable_high_accuracy: true
+activation_sparsity: 0.552578
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 27
+wall_clock_seconds: 27.386725
+
+Run 18 seed 18
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 147
+first_high_epoch: 133
+stable_high_accuracy: true
+activation_sparsity: 0.554645
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 6
+wall_clock_seconds: 27.474010
+
+Run 19 seed 19
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 111
+first_high_epoch: 101
+stable_high_accuracy: true
+activation_sparsity: 0.509346
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 5
+wall_clock_seconds: 27.880124
+
+Aggregate metrics across 20 runs:
+final_train_accuracy minimum: 0.999000
+final_train_accuracy average: 0.999900
+final_test_accuracy minimum: 0.990000
+final_test_accuracy average: 0.999500
+first_perfect_epoch minimum: 102
+first_perfect_epoch average: 136.650000
+first_high_epoch minimum: 97
+first_high_epoch average: 126.150000
+stable_high_accuracy minimum: 1.000000
+stable_high_accuracy average: 1.000000
+activation_sparsity minimum: 0.509346
+activation_sparsity average: 0.554997
+structural_sparsity minimum: 0.000000
+structural_sparsity average: 0.000000
+final_active_subnetwork_size minimum: 4
+final_active_subnetwork_size average: 10.050000
+wall_clock_seconds minimum: 27.109322
+wall_clock_seconds average: 27.453908

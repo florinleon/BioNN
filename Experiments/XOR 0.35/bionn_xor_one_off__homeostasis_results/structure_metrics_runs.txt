@@ -1,0 +1,74 @@
+XOR BioNN structure metrics by run
+==================================
+
+Shared metadata
+---------------
+SampleCount: 400
+UnitCount: 1000
+GroupCount: 4
+GroupNames: +mu1, -mu1, +mu2, -mu2
+
+Run 0 seed 80349449
+----------------
+PopulationSparsityMean: 0.309943
+LifetimeSparsityMean: 0.309943
+SampleHoyerSparsityMean: 0.524621
+NeuronHoyerSparsityMean: 0.377859
+DeadNeuronFraction: 0.103000
+MeanAbsoluteNeuronCorrelation: 0.355308
+NormalizedEffectiveRank: 0.143835
+MeanNeuronSpecialization: 0.197075
+MeanNeuronPurity: 0.442874
+CentroidSeparationRatio: 40.868911
+WithinGroupJaccard: 0.895262
+BetweenGroupJaccard: 0.812909
+JaccardGap: 0.082353
+
+Run 1 seed 827632318
+----------------
+PopulationSparsityMean: 0.283780
+LifetimeSparsityMean: 0.283780
+SampleHoyerSparsityMean: 0.445509
+NeuronHoyerSparsityMean: 0.358241
+DeadNeuronFraction: 0.127000
+MeanAbsoluteNeuronCorrelation: 0.459885
+NormalizedEffectiveRank: 0.234713
+MeanNeuronSpecialization: 0.139103
+MeanNeuronPurity: 0.377710
+CentroidSeparationRatio: 12.479357
+WithinGroupJaccard: 0.923753
+BetweenGroupJaccard: 0.870913
+JaccardGap: 0.052840
+
+Run 2 seed 911029250
+----------------
+PopulationSparsityMean: 0.320965
+LifetimeSparsityMean: 0.320965
+SampleHoyerSparsityMean: 0.524633
+NeuronHoyerSparsityMean: 0.393066
+DeadNeuronFraction: 0.122000
+MeanAbsoluteNeuronCorrelation: 0.341894
+NormalizedEffectiveRank: 0.152391
+MeanNeuronSpecialization: 0.185852
+MeanNeuronPurity: 0.429105
+CentroidSeparationRatio: 32.214494
+WithinGroupJaccard: 0.885217
+BetweenGroupJaccard: 0.801916
+JaccardGap: 0.083301
+
+Run 3 seed 1503424559
+----------------
+PopulationSparsityMean: 0.291950
+LifetimeSparsityMean: 0.291950
+SampleHoyerSparsityMean: 0.497587
+NeuronHoyerSparsityMean: 0.375823
+DeadNeuronFraction: 0.105000
+MeanAbsoluteNeuronCorrelation: 0.413440
+NormalizedEffectiveRank: 0.202623
+MeanNeuronSpecialization: 0.170412
+MeanNeuronPurity: 0.419049
+CentroidSeparationRatio: 17.732437
+WithinGroupJaccard: 0.899127
+BetweenGroupJaccard: 0.826452
+JaccardGap: 0.072675
+

@@ -1,0 +1,42 @@
+Sparse-parity BioNN structure metric definitions
+==============================================
+
+PopulationSparsityMean
+Mean fraction of hidden units that stay below the activity threshold for one sample.
+
+LifetimeSparsityMean
+Mean fraction of samples for which one hidden unit stays below the activity threshold.
+
+SampleHoyerSparsityMean
+Average Hoyer sparsity of a sample activation vector. Higher means fewer strong units per sample.
+
+NeuronHoyerSparsityMean
+Average Hoyer sparsity of a neuron activation profile across samples. Higher means narrower firing support.
+
+DeadNeuronFraction
+Fraction of hidden units that never rise above the activity threshold on the evaluation set.
+
+MeanAbsoluteNeuronCorrelation
+Mean absolute off-diagonal correlation between neuron activation profiles.
+
+NormalizedEffectiveRank
+Entropy-based effective rank divided by the maximum possible rank for the activation matrix.
+
+MeanNeuronSpecialization
+Average normalized specialization score derived from each neuron's group-conditioned activity mass.
+
+MeanNeuronPurity
+Average fraction of a neuron's activity mass assigned to its dominant group.
+
+CentroidSeparationRatio
+Mean squared distance between group centroids divided by mean within-group squared distance.
+
+WithinGroupJaccard
+Mean Jaccard overlap of active-unit sets for sample pairs drawn from the same group.
+
+BetweenGroupJaccard
+Mean Jaccard overlap of active-unit sets for sample pairs drawn from different groups.
+
+JaccardGap
+Within-group Jaccard overlap minus between-group Jaccard overlap. Higher means cleaner regime separation.
+

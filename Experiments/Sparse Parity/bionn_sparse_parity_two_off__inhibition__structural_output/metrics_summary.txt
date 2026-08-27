@@ -1,0 +1,87 @@
+Sparse-parity BioNN metrics
+==========================
+
+This file summarizes the sparse-parity BioNN configuration with fixed parameters across ablations.
+Stable high accuracy means at least 5 consecutive evaluations with test accuracy >= 0.95.
+
+Configuration notes:
+- learned context, affine-ReLU hidden layer, and linear readout are fixed across ablations
+- mechanism switches only enable or disable their own computational contribution
+- numerical mechanism parameters remain fixed even when the corresponding switch is off
+
+Per-run metrics:
+
+Run 0 seed 753159
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 46
+first_high_epoch: 37
+stable_high_accuracy: true
+activation_sparsity: 0.864079
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 10
+wall_clock_seconds: 60.611485
+
+Run 1 seed 753160
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 51
+first_high_epoch: 45
+stable_high_accuracy: true
+activation_sparsity: 0.851181
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 10
+wall_clock_seconds: 60.857660
+
+Run 2 seed 753161
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 51
+first_high_epoch: 46
+stable_high_accuracy: true
+activation_sparsity: 0.857823
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 13
+wall_clock_seconds: 60.924077
+
+Run 3 seed 753162
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 56
+first_high_epoch: 46
+stable_high_accuracy: true
+activation_sparsity: 0.861224
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 10
+wall_clock_seconds: 61.523577
+
+Run 4 seed 753163
+final_train_accuracy: 1.000000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 60
+first_high_epoch: 51
+stable_high_accuracy: true
+activation_sparsity: 0.856334
+structural_sparsity: 0.000000
+final_active_subnetwork_size: 13
+wall_clock_seconds: 61.481579
+
+Aggregate metrics across 5 runs:
+final_train_accuracy minimum: 1.000000
+final_train_accuracy average: 1.000000
+final_test_accuracy minimum: 1.000000
+final_test_accuracy average: 1.000000
+first_perfect_epoch minimum: 46
+first_perfect_epoch average: 52.800000
+first_high_epoch minimum: 37
+first_high_epoch average: 45.000000
+stable_high_accuracy minimum: 1.000000
+stable_high_accuracy average: 1.000000
+activation_sparsity minimum: 0.851181
+activation_sparsity average: 0.858128
+structural_sparsity minimum: 0.000000
+structural_sparsity average: 0.000000
+final_active_subnetwork_size minimum: 10
+final_active_subnetwork_size average: 11.200000
+wall_clock_seconds minimum: 60.611485
+wall_clock_seconds average: 61.079676

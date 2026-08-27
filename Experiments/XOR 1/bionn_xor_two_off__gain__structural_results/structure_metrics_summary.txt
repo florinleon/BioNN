@@ -1,0 +1,62 @@
+XOR BioNN structure metric summary
+==================================
+
+Interpretation notes
+--------------------
+Higher sparsity, specialization, centroid separation, and Jaccard gap indicate cleaner internal structure.
+Lower mean absolute correlation and lower normalized effective rank indicate less redundant activity.
+
+Aggregate values across 5 runs
+------------------------------
+PopulationSparsityMean minimum: 0.859658
+PopulationSparsityMean average: 0.869705
+PopulationSparsityMean maximum: 0.876365
+
+LifetimeSparsityMean minimum: 0.859657
+LifetimeSparsityMean average: 0.869705
+LifetimeSparsityMean maximum: 0.876365
+
+SampleHoyerSparsityMean minimum: 0.848547
+SampleHoyerSparsityMean average: 0.861456
+SampleHoyerSparsityMean maximum: 0.870104
+
+NeuronHoyerSparsityMean minimum: 0.752712
+NeuronHoyerSparsityMean average: 0.758622
+NeuronHoyerSparsityMean maximum: 0.763359
+
+DeadNeuronFraction minimum: 0.000000
+DeadNeuronFraction average: 0.000000
+DeadNeuronFraction maximum: 0.000000
+
+MeanAbsoluteNeuronCorrelation minimum: 0.145448
+MeanAbsoluteNeuronCorrelation average: 0.147907
+MeanAbsoluteNeuronCorrelation maximum: 0.149717
+
+NormalizedEffectiveRank minimum: 0.322797
+NormalizedEffectiveRank average: 0.352760
+NormalizedEffectiveRank maximum: 0.390008
+
+MeanNeuronSpecialization minimum: 0.780664
+MeanNeuronSpecialization average: 0.805948
+MeanNeuronSpecialization maximum: 0.824518
+
+MeanNeuronPurity minimum: 0.884121
+MeanNeuronPurity average: 0.899296
+MeanNeuronPurity maximum: 0.911830
+
+CentroidSeparationRatio minimum: 8.990033
+CentroidSeparationRatio average: 12.659089
+CentroidSeparationRatio maximum: 16.334668
+
+WithinGroupJaccard minimum: 0.270344
+WithinGroupJaccard average: 0.288204
+WithinGroupJaccard maximum: 0.319732
+
+BetweenGroupJaccard minimum: 0.051876
+BetweenGroupJaccard average: 0.056031
+BetweenGroupJaccard maximum: 0.059601
+
+JaccardGap minimum: 0.210743
+JaccardGap average: 0.232172
+JaccardGap maximum: 0.260274
+

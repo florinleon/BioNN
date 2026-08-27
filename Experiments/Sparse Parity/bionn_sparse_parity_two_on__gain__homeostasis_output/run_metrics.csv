@@ -1,0 +1,6 @@
+run_index,seed,final_train_accuracy,final_test_accuracy,first_perfect_epoch,first_high_epoch,stable_high_accuracy,activation_sparsity,structural_sparsity,final_active_subnetwork_size,wall_clock_seconds
+0,753159,1.0,1.0,61,47,True,0.8895149827003479,0.0,5,39.21103140000014
+1,753160,1.0,1.0,64,55,True,0.8759999871253967,0.0,8,40.147146400000565
+2,753161,1.0,1.0,63,57,True,0.8571670055389404,0.0,6,39.76205149999987
+3,753162,1.0,1.0,75,58,True,0.8553130030632019,0.0,8,40.875997400000415
+4,753163,1.0,1.0,69,54,True,0.863860011100769,0.0,8,40.30513040000005

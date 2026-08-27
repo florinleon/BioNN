@@ -1,0 +1,80 @@
+XOR BioNN metrics
+========================
+
+This file summarizes the XOR BioNN configuration with fixed parameters across ablations.
+Stable high accuracy means at least 5 consecutive evaluations with test accuracy >= 0.95.
+
+Configuration notes:
+- learned context, affine-ReLU hidden layer, and linear readout are fixed across ablations
+- mechanism switches only enable or disable their own computational contribution
+- numerical mechanism parameters remain fixed even when the corresponding switch is off
+
+Per-run metrics:
+
+Run 0 seed 1063212347
+final_train_accuracy: 0.970000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 2808
+first_high_epoch: 2356
+stable_high_accuracy: true
+activation_sparsity: 0.843735
+structural_sparsity: 0.000000
+wall_clock_seconds: 79.525719
+
+Run 1 seed 1718514980
+final_train_accuracy: 0.965000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 2429
+first_high_epoch: 1931
+stable_high_accuracy: true
+activation_sparsity: 0.841595
+structural_sparsity: 0.000000
+wall_clock_seconds: 80.067447
+
+Run 2 seed 1197973900
+final_train_accuracy: 0.980000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 1970
+first_high_epoch: 1624
+stable_high_accuracy: true
+activation_sparsity: 0.842840
+structural_sparsity: 0.000000
+wall_clock_seconds: 80.349612
+
+Run 3 seed 148632566
+final_train_accuracy: 0.975000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 2786
+first_high_epoch: 2146
+stable_high_accuracy: true
+activation_sparsity: 0.842945
+structural_sparsity: 0.000000
+wall_clock_seconds: 80.377295
+
+Run 4 seed 571431387
+final_train_accuracy: 0.960000
+final_test_accuracy: 1.000000
+first_perfect_epoch: 2698
+first_high_epoch: 1837
+stable_high_accuracy: true
+activation_sparsity: 0.840020
+structural_sparsity: 0.000000
+wall_clock_seconds: 80.411690
+
+Aggregate metrics across 5 runs:
+final_train_accuracy minimum: 0.960000
+final_train_accuracy average: 0.970000
+final_test_accuracy minimum: 1.000000
+final_test_accuracy average: 1.000000
+first_perfect_epoch minimum: 1970
+first_perfect_epoch average: 2538.200000
+first_high_epoch minimum: 1624
+first_high_epoch average: 1978.800000
+stable_high_accuracy minimum: 1.000000
+stable_high_accuracy average: 1.000000
+activation_sparsity minimum: 0.840020
+activation_sparsity average: 0.842227
+structural_sparsity minimum: 0.000000
+structural_sparsity average: 0.000000
+wall_clock_seconds minimum: 79.525719
+wall_clock_seconds average: 80.146352

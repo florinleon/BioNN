@@ -1,0 +1,90 @@
+Sparse-parity BioNN structure metrics by run
+============================================
+
+Shared metadata
+---------------
+SampleCount: 1100
+UnitCount: 1000
+GroupCount: 2
+GroupNames: target=-1, target=+1
+
+Run 0 seed 753159
+----------------
+PopulationSparsityMean: 0.567846
+LifetimeSparsityMean: 0.567846
+SampleHoyerSparsityMean: 0.911034
+NeuronHoyerSparsityMean: 0.486186
+DeadNeuronFraction: 0.000000
+MeanAbsoluteNeuronCorrelation: 0.130731
+NormalizedEffectiveRank: 0.045804
+MeanNeuronSpecialization: 0.076800
+MeanNeuronPurity: 0.614490
+CentroidSeparationRatio: 0.421004
+WithinGroupJaccard: 0.286983
+BetweenGroupJaccard: 0.285375
+JaccardGap: 0.001608
+
+Run 1 seed 753160
+----------------
+PopulationSparsityMean: 0.597901
+LifetimeSparsityMean: 0.597901
+SampleHoyerSparsityMean: 0.854745
+NeuronHoyerSparsityMean: 0.508412
+DeadNeuronFraction: 0.000000
+MeanAbsoluteNeuronCorrelation: 0.135902
+NormalizedEffectiveRank: 0.075663
+MeanNeuronSpecialization: 0.076297
+MeanNeuronPurity: 0.620298
+CentroidSeparationRatio: 0.418091
+WithinGroupJaccard: 0.289905
+BetweenGroupJaccard: 0.282487
+JaccardGap: 0.007418
+
+Run 2 seed 753161
+----------------
+PopulationSparsityMean: 0.589583
+LifetimeSparsityMean: 0.589583
+SampleHoyerSparsityMean: 0.885113
+NeuronHoyerSparsityMean: 0.500380
+DeadNeuronFraction: 0.000000
+MeanAbsoluteNeuronCorrelation: 0.146169
+NormalizedEffectiveRank: 0.049669
+MeanNeuronSpecialization: 0.085058
+MeanNeuronPurity: 0.624582
+CentroidSeparationRatio: 0.396697
+WithinGroupJaccard: 0.277556
+BetweenGroupJaccard: 0.272546
+JaccardGap: 0.005010
+
+Run 3 seed 753162
+----------------
+PopulationSparsityMean: 0.612025
+LifetimeSparsityMean: 0.612025
+SampleHoyerSparsityMean: 0.776836
+NeuronHoyerSparsityMean: 0.530459
+DeadNeuronFraction: 0.000000
+MeanAbsoluteNeuronCorrelation: 0.146527
+NormalizedEffectiveRank: 0.118650
+MeanNeuronSpecialization: 0.081720
+MeanNeuronPurity: 0.616580
+CentroidSeparationRatio: 0.407615
+WithinGroupJaccard: 0.329855
+BetweenGroupJaccard: 0.325615
+JaccardGap: 0.004241
+
+Run 4 seed 753163
+----------------
+PopulationSparsityMean: 0.585600
+LifetimeSparsityMean: 0.585600
+SampleHoyerSparsityMean: 0.876772
+NeuronHoyerSparsityMean: 0.496642
+DeadNeuronFraction: 0.000000
+MeanAbsoluteNeuronCorrelation: 0.134751
+NormalizedEffectiveRank: 0.056243
+MeanNeuronSpecialization: 0.070970
+MeanNeuronPurity: 0.611588
+CentroidSeparationRatio: 0.398352
+WithinGroupJaccard: 0.282897
+BetweenGroupJaccard: 0.275866
+JaccardGap: 0.007031
+
