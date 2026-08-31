@@ -10,7 +10,7 @@ The repository includes XOR-cluster and sparse-parity experiments, repeated seed
 
 A detailed description of the architecture and examples can be found in this paper:
 
-> Florin Leon, *Biologically Inspired Mechanisms for Facilitating Grokking in Multilayer Perceptrons*, 2026, https://arxiv.org/abs/xxx .
+> Florin Leon, *Biologically Inspired Mechanisms for Facilitating Grokking in Multilayer Perceptrons*, 2026, https://arxiv.org/abs/2608.28184 .
 
 ## Note
 
